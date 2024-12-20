@@ -1,0 +1,11 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server docs -p 3001 -a localhost",
+    "graph": "node osm-parser.js"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "xml2js": "^0.4.23"
+  }
+}
