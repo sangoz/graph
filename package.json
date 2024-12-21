@@ -2,7 +2,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "http-server docs -p 3001 -a localhost",
-    "graph": "node osm-parser.js"
+    "graph": "node osm-parser.js",
+    "build": "mkdir -p dist && cp -r docs/* dist/"
   },
   "devDependencies": {
     "http-server": "^0.12.3",
